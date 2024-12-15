@@ -26,7 +26,7 @@ export function NavBar() {
           <Link href="/" className="mr-6 flex items-center space-x-2">
             <span className="text-2xl font-bold">Serendale</span>
           </Link>
-          <nav className="flex items-center space-x-6 text-sm font-medium">
+          <nav className="flex items-center space-x-6 text-sm font-medium text-center">
             {navItems.map((item) => (
               <Link
                 key={item.name}

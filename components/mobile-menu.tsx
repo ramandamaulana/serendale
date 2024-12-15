@@ -8,7 +8,6 @@ import { useMediaQuery } from "@/hooks/use-media-query"
 
 import { Button } from "@/components/ui/button"
 import { ThemeToggle } from "./theme-toggle"
-import { cn } from "@/lib/utils"
 
 const navItems = [
   { name: "Smart Contracts", href: "#" },
